@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="ng-csp" data-placeholder-focus="false" lang="en" >
-	<head data-requesttoken="EysWSWxlOz8ZTm8INFMkDyNGPwxPOh8AAiYhGSUjOwE=:IFU85PVJZvWEA2LhlrsF6nxycwrOjhmI6mAYlaNrkKs=">
+	<head data-requesttoken="ZTQCJyA6MDRedXMJChg9N1QaEQsdERwbVzIDIiImMWQ=:WzVQHJWLqAGEfsur2KfZeXrhdyBnGdT/wTQUvCKjgWk=">
 		<meta charset="utf-8">
 		<title>
 		polybox		</title>
@@ -103,7 +103,7 @@
 					<script src="/apps/files/js/files.js?v=ac735e8abc37956d7690b3f50e3791b7"></script>
 					<script src="/apps/files/js/filelist.js?v=ac735e8abc37956d7690b3f50e3791b7"></script>
 					<script src="/apps/files/js/keyboardshortcuts.js?v=ac735e8abc37956d7690b3f50e3791b7"></script>
-				<meta property="og:title" content="polybox - &lt;a href=&quot;https://polyboxdoc.ethz.ch/&quot; target=&quot;_blank&quot;&gt;polybox Help&lt;/a&gt;&lt;br&gt;Use it as a logical memory stick&lt;br&gt;Store your data on the ETH campus"/><meta property="og:description" content="sequences-demux-paired.qza is publicly shared"/><meta property="og:site_name" content="polybox"/><meta property="og:url" content="https://polybox.ethz.ch/index.php/s/Cv15BXoZMZXaB2I"/><meta property="og:type" content="object"/><meta property="og:image" content="https://polybox.ethz.ch/core/img/favicon-fb.png"/>	</head>
+				<meta property="og:title" content="polybox - &lt;a href=&quot;https://polyboxdoc.ethz.ch/&quot; target=&quot;_blank&quot;&gt;polybox Help&lt;/a&gt;&lt;br&gt;Use it as a logical memory stick&lt;br&gt;Store your data on the ETH campus"/><meta property="og:description" content="metadata-health.tsv is publicly shared"/><meta property="og:site_name" content="polybox"/><meta property="og:url" content="https://polybox.ethz.ch/index.php/s/qbw3Y2RJ7DyExsq"/><meta property="og:type" content="object"/><meta property="og:image" content="https://polybox.ethz.ch/core/img/favicon-fb.png"/>	</head>
 	<body id="body-public" class="theme-polybox has-theme" >
 		<noscript>
 	<div id="nojavascript">
@@ -120,20 +120,20 @@
 <input type="hidden" id="filesApp" name="filesApp" value="1">
 <input type="hidden" id="isPublic" name="isPublic" value="1">
 <input type="hidden" name="dir" value="" id="dir">
-<input type="hidden" name="downloadURL" value="https://polybox.ethz.ch/index.php/s/Cv15BXoZMZXaB2I/download" id="downloadURL">
-<input type="hidden" name="sharingToken" value="Cv15BXoZMZXaB2I" id="sharingToken">
-<input type="hidden" name="filename" value="sequences-demux-paired.qza" id="filename">
+<input type="hidden" name="downloadURL" value="https://polybox.ethz.ch/index.php/s/qbw3Y2RJ7DyExsq/download" id="downloadURL">
+<input type="hidden" name="sharingToken" value="qbw3Y2RJ7DyExsq" id="sharingToken">
+<input type="hidden" name="filename" value="metadata-health.tsv" id="filename">
 <input type="hidden" name="mimetype" value="application/octet-stream" id="mimetype">
 <input type="hidden" name="previewSupported" value="false" id="previewSupported">
 <input type="hidden" name="previewEnabled" value="true" id="previewEnabled">
 <input type="hidden" name="mimetypeIcon" value="/core/img/filetypes/file.svg" id="mimetypeIcon">
-<input type="hidden" name="filesize" value="1506379068" id="filesize">
+<input type="hidden" name="filesize" value="288428" id="filesize">
 <input type="hidden" name="maxSizeAnimateGif" value="10" id="maxSizeAnimateGif">
 <input type="hidden" name="sharePermission" value="1" id="sharePermission">
 
 <header>
 	<div id="header" class="share-file" data-protected="false"
-		 data-owner-display-name="Anja Adamov (anja.adamov@hest.ethz.ch)" data-owner="adamova" data-name="sequences-demux-paired.qza">
+		 data-owner-display-name="Anja Adamov (anja.adamov@hest.ethz.ch)" data-owner="adamova" data-name="metadata-health.tsv">
 		<a href="/index.php" title="" id="owncloud-public">
 			<h1 class="logo-icon">
 				polybox.ethz.ch			</h1>
@@ -142,7 +142,7 @@
 		<div id="logo-claim" style="display:none;"></div>
 				<div class="header-right">
 			<span id="details">
-				<a href="https://polybox.ethz.ch/index.php/s/Cv15BXoZMZXaB2I/download" id="download" class="button">
+				<a href="https://polybox.ethz.ch/index.php/s/qbw3Y2RJ7DyExsq/download" id="download" class="button">
 					<img class="svg" alt="" src="/core/img/actions/download.svg"/>
 					<span id="download-text">Download</span>
 				</a>
@@ -156,14 +156,14 @@
 												<!-- Preview frame is filled via JS to support SVG images for modern browsers -->
 					<div id="imgframe"></div>
 								<div class="directDownload">
-					<a href="https://polybox.ethz.ch/index.php/s/Cv15BXoZMZXaB2I/download" id="downloadFile" class="button">
+					<a href="https://polybox.ethz.ch/index.php/s/qbw3Y2RJ7DyExsq/download" id="downloadFile" class="button">
 						<img class="svg" alt="" src="/core/img/actions/download.svg"/>
-						Download sequences-demux-paired.qza (1.4 GB)
+						Download metadata-health.tsv (282 KB)
 					</a>
 				</div>
 				<div class="directLink">
 					<label for="directLink">Direct link</label>
-					<input id="directLink" type="text" readonly value="https://polybox.ethz.ch/index.php/s/Cv15BXoZMZXaB2I/download">
+					<input id="directLink" type="text" readonly value="https://polybox.ethz.ch/index.php/s/qbw3Y2RJ7DyExsq/download">
 				</div>
 					</div>
 	</div>
