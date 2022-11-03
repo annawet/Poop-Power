@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_diversity : beta_group_significance</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+  
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Overview</h2>
+      <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PERMANOVA results</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>method name</th>
+      <td>PERMANOVA</td>
+    </tr>
+    <tr>
+      <th>test statistic name</th>
+      <td>pseudo-F</td>
+    </tr>
+    <tr>
+      <th>sample size</th>
+      <td>509</td>
+    </tr>
+    <tr>
+      <th>number of groups</th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>test statistic</th>
+      <td>1.395781</td>
+    </tr>
+    <tr>
+      <th>p-value</th>
+      <td>0.003</td>
+    </tr>
+    <tr>
+      <th>number of permutations</th>
+      <td>999</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Group significance plots</h2>
+      <a href="raw_data.tsv" target="_blank" rel="noopener noreferrer">
+        Download raw data as TSV
+      </a>
+      
+        <div class="row">
+          
+            <div class="col-lg-4 text-center">
+              <a href="African%2520American-boxplots.pdf">
+                <img src="African%2520American-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Asian%2520or%2520Pacific%2520Islander-boxplots.pdf">
+                <img src="Asian%2520or%2520Pacific%2520Islander-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Caucasian-boxplots.pdf">
+                <img src="Caucasian-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-4 text-center">
+              <a href="Hispanic-boxplots.pdf">
+                <img src="Hispanic-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Not%2520provided-boxplots.pdf">
+                <img src="Not%2520provided-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Other-boxplots.pdf">
+                <img src="Other-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Pairwise permanova results</h2>
+        <a href="permanova-pairwise.csv">Download CSV</a>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Sample size</th>
+      <th>Permutations</th>
+      <th>pseudo-F</th>
+      <th>p-value</th>
+      <th>q-value</th>
+    </tr>
+    <tr>
+      <th>Group 1</th>
+      <th>Group 2</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="5" valign="top">African American</th>
+      <th>Asian or Pacific Islander</th>
+      <td>20</td>
+      <td>999</td>
+      <td>0.848337</td>
+      <td>0.685</td>
+      <td>0.835385</td>
+    </tr>
+    <tr>
+      <th>Caucasian</th>
+      <td>467</td>
+      <td>999</td>
+      <td>0.871571</td>
+      <td>0.642</td>
+      <td>0.835385</td>
+    </tr>
+    <tr>
+      <th>Hispanic</th>
+      <td>10</td>
+      <td>999</td>
+      <td>0.823038</td>
+      <td>0.724</td>
+      <td>0.835385</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <td>7</td>
+      <td>999</td>
+      <td>1.038116</td>
+      <td>0.484</td>
+      <td>0.726000</td>
+    </tr>
+    <tr>
+      <th>Other</th>
+      <td>13</td>
+      <td>999</td>
+      <td>0.723597</td>
+      <td>0.880</td>
+      <td>0.939000</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">Asian or Pacific Islander</th>
+      <th>Caucasian</th>
+      <td>483</td>
+      <td>999</td>
+      <td>2.515818</td>
+      <td>0.001</td>
+      <td>0.015000</td>
+    </tr>
+    <tr>
+      <th>Hispanic</th>
+      <td>26</td>
+      <td>999</td>
+      <td>1.103161</td>
+      <td>0.277</td>
+      <td>0.671667</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <td>23</td>
+      <td>999</td>
+      <td>1.156924</td>
+      <td>0.181</td>
+      <td>0.543000</td>
+    </tr>
+    <tr>
+      <th>Other</th>
+      <td>29</td>
+      <td>999</td>
+      <td>1.032118</td>
+      <td>0.385</td>
+      <td>0.671667</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">Caucasian</th>
+      <th>Hispanic</th>
+      <td>473</td>
+      <td>999</td>
+      <td>1.014552</td>
+      <td>0.376</td>
+      <td>0.671667</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <td>470</td>
+      <td>999</td>
+      <td>0.735736</td>
+      <td>0.939</td>
+      <td>0.939000</td>
+    </tr>
+    <tr>
+      <th>Other</th>
+      <td>476</td>
+      <td>999</td>
+      <td>1.932729</td>
+      <td>0.004</td>
+      <td>0.030000</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">Hispanic</th>
+      <th>Not provided</th>
+      <td>13</td>
+      <td>999</td>
+      <td>0.993560</td>
+      <td>0.403</td>
+      <td>0.671667</td>
+    </tr>
+    <tr>
+      <th>Other</th>
+      <td>19</td>
+      <td>999</td>
+      <td>1.230887</td>
+      <td>0.124</td>
+      <td>0.506250</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <th>Other</th>
+      <td>16</td>
+      <td>999</td>
+      <td>1.217828</td>
+      <td>0.135</td>
+      <td>0.506250</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  
+
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+    
+  </body>
+</html>

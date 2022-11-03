@@ -1,0 +1,211 @@
+execution:
+    uuid: ac6b2659-5038-45ba-8b20-ed15ce6a11fd
+    runtime:
+        start: 2021-08-06T17:14:18.128427+02:00
+        end: 2021-08-06T17:16:19.866487+02:00
+        duration: 2 minutes, 1 second, and 738060 microseconds
+
+action:
+    type: import
+    format: EMPPairedEndDirFmt
+    manifest:
+    -   name: barcodes.fastq.gz
+        md5sum: 2920bfa27622625fe0502e8857ead862
+    -   name: forward.fastq.gz
+        md5sum: 301c72cfd5c30ea63edc2418f9444229
+    -   name: reverse.fastq.gz
+        md5sum: fc55c927a5959cbb5d83868743603d5a
+
+transformers:
+    output:
+    -   from: EMPPairedEndDirFmt
+        to: EMPPairedEndDirFmt
+
+environment:
+    platform: macosx-10.9-x86_64
+    python: |-
+        3.8.8 | packaged by conda-forge | (default, Feb 20 2021, 16:12:38)
+        [Clang 11.0.1 ]
+    framework:
+        version: 2021.4.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2021.4.0|0'
+    plugins:
+        demux:
+            version: 2021.4.0
+            website: https://github.com/qiime2/q2-demux
+    python-packages:
+        zipp: 3.4.1
+        xopen: 1.1.0
+        xmltodict: 0.12.0
+        widgetsnbextension: 3.5.1
+        wheel: 0.36.2
+        webencodings: 0.5.1
+        wcwidth: 0.2.5
+        urllib3: 1.26.4
+        unifrac: 0.20.2
+        tzlocal: '2.1'
+        typing-extensions: 3.7.4.3
+        traitlets: 5.0.5
+        tornado: '6.1'
+        toml: 0.10.2
+        threadpoolctl: 2.1.0
+        testpath: 0.4.4
+        terminado: 0.9.4
+        statsmodels: 0.12.2
+        six: 1.15.0
+        setuptools: 49.6.0.post20210108
+        sepp: 4.3.10
+        Send2Trash: 1.5.0
+        seaborn: 0.11.1
+        scipy: 1.6.2
+        scikit-learn: 0.24.1
+        scikit-bio: 0.5.6
+        requests: 2.25.1
+        qzv-viewer: 0.0.1
+        QtPy: 1.9.0
+        qtconsole: 5.1.1
+        qiime2: 2021.4.0
+        q2templates: 2021.4.0
+        q2lint: 0.0.1
+        q2cli: 2021.4.0
+        q2-vsearch: 2021.4.0
+        q2-types: 2021.4.0
+        q2-taxa: 2021.4.0
+        q2-sample-classifier: 2021.4.0
+        q2-quality-filter: 2021.4.0
+        q2-quality-control: 2021.4.0
+        q2-phylogeny: 2021.4.0
+        q2-mystery-stew: 2021.4.0
+        q2-metadata: 2021.4.0
+        q2-longitudinal: 2021.4.0
+        q2-gneiss: 2021.4.0
+        q2-fragment-insertion: 2021.4.0
+        q2-feature-table: 2021.4.0
+        q2-feature-classifier: 2021.4.0
+        q2-emperor: 2021.4.0
+        q2-diversity: 2021.4.0
+        q2-diversity-lib: 2021.4.0
+        q2-demux: 2021.4.0
+        q2-deblur: 2021.4.0
+        q2-dada2: 2021.4.0
+        q2-cutadapt: 2021.4.0
+        q2-composition: 2021.4.0
+        q2-alignment: 2021.4.0
+        pyzmq: 22.0.3
+        PyYAML: 5.4.1
+        pytz: '2021.1'
+        python-dateutil: 2.8.1
+        pytest: 6.2.3
+        pytest-xdist: 2.3.0
+        pytest-forked: 1.3.0
+        PySocks: 1.7.1
+        pyrsistent: 0.17.3
+        PyQtWebEngine: 5.12.1
+        PyQtChart: '5.12'
+        PyQt5: 5.12.3
+        PyQt5-sip: 4.19.18
+        pyparsing: 2.4.7
+        pyOpenSSL: 20.0.1
+        Pygments: 2.8.1
+        pyflakes: 2.3.1
+        pycparser: '2.20'
+        pycodestyle: 2.7.0
+        py: 1.10.0
+        ptyprocess: 0.7.0
+        psutil: 5.8.0
+        prompt-toolkit: 3.0.18
+        prometheus-client: 0.10.1
+        pluggy: 0.13.1
+        pip: 21.0.1
+        Pillow: 8.1.2
+        pickleshare: 0.7.5
+        pexpect: 4.8.0
+        patsy: 0.5.1
+        parso: 0.8.2
+        pandocfilters: 1.4.2
+        pandas: 1.2.4
+        packaging: '20.9'
+        olefile: '0.46'
+        numpy: 1.20.2
+        notebook: 6.4.0
+        nose: 1.3.7
+        networkx: 2.5.1
+        nest-asyncio: 1.5.1
+        nbformat: 5.1.3
+        nbconvert: 6.0.7
+        nbclient: 0.5.3
+        natsort: 7.1.1
+        msgpack: 1.0.2
+        more-itertools: 8.7.0
+        mistune: 0.8.4
+        mccabe: 0.6.1
+        matplotlib: 3.4.1
+        MarkupSafe: 1.1.1
+        lz4: 3.1.3
+        lxml: 4.6.3
+        lockfile: 0.12.2
+        kiwisolver: 1.3.1
+        jupyterlab-widgets: 1.0.0
+        jupyterlab-pygments: 0.1.2
+        jupyter: 1.0.0
+        jupyter-nbextensions-configurator: 0.4.1
+        jupyter-latex-envs: 1.4.6
+        jupyter-highlight-selected-word: 0.2.0
+        jupyter-core: 4.7.1
+        jupyter-contrib-nbextensions: 0.5.1
+        jupyter-contrib-core: 0.3.3
+        jupyter-console: 6.4.0
+        jupyter-client: 6.1.12
+        jsonschema: 3.2.0
+        joblib: 1.0.1
+        Jinja2: 2.11.3
+        jedi: 0.18.0
+        isal: 0.10.0
+        ipywidgets: 7.6.3
+        ipython: 7.22.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.5.3
+        iniconfig: 1.1.1
+        importlib-metadata: 3.10.1
+        ijson: 3.1.3
+        idna: '2.10'
+        hdmedians: 0.14.2
+        h5py: 3.2.1
+        gneiss: 0.4.6
+        future: 0.18.2
+        flake8: 3.9.2
+        fastcluster: 1.1.26
+        execnet: 1.9.0
+        entrypoints: '0.3'
+        emperor: 1.0.3
+        dnaio: 0.5.0
+        DendroPy: 4.5.2
+        defusedxml: 0.7.1
+        decorator: 4.4.2
+        deblur: 1.1.0
+        Cython: 0.29.23
+        cycler: 0.10.0
+        cutadapt: '3.4'
+        cryptography: 3.4.7
+        coverage: '5.5'
+        click: 7.1.2
+        chardet: 4.0.0
+        cffi: 1.14.5
+        certifi: 2021.5.30
+        cached-property: 1.5.2
+        CacheControl: 0.12.6
+        brotlipy: 0.7.0
+        bokeh: 2.3.1
+        bleach: 3.3.0
+        biom-format: 2.1.10
+        bibtexparser: 1.1.0
+        backports.functools-lru-cache: 1.6.4
+        backcall: 0.2.0
+        autopep8: 1.5.7
+        attrs: 20.3.0
+        async-generator: '1.10'
+        argon2-cffi: 20.1.0
+        appnope: 0.1.2
+        q2galaxy: 2021.4.0
