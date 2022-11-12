@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_diversity : beta_group_significance</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+  
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Overview</h2>
+      <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PERMANOVA results</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>method name</th>
+      <td>PERMANOVA</td>
+    </tr>
+    <tr>
+      <th>test statistic name</th>
+      <td>pseudo-F</td>
+    </tr>
+    <tr>
+      <th>sample size</th>
+      <td>509</td>
+    </tr>
+    <tr>
+      <th>number of groups</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>test statistic</th>
+      <td>1.23653</td>
+    </tr>
+    <tr>
+      <th>p-value</th>
+      <td>0.024</td>
+    </tr>
+    <tr>
+      <th>number of permutations</th>
+      <td>999</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Group significance plots</h2>
+      <a href="raw_data.tsv" target="_blank" rel="noopener noreferrer">
+        Download raw data as TSV
+      </a>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="Normal-boxplots.pdf">
+                <img src="Normal-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="Not%2520provided-boxplots.pdf">
+                <img src="Not%2520provided-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="Obese-boxplots.pdf">
+                <img src="Obese-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="Overweight-boxplots.pdf">
+                <img src="Overweight-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="Underweight-boxplots.pdf">
+                <img src="Underweight-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Pairwise permanova results</h2>
+        <a href="permanova-pairwise.csv">Download CSV</a>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Sample size</th>
+      <th>Permutations</th>
+      <th>pseudo-F</th>
+      <th>p-value</th>
+      <th>q-value</th>
+    </tr>
+    <tr>
+      <th>Group 1</th>
+      <th>Group 2</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="4" valign="top">Normal</th>
+      <th>Not provided</th>
+      <td>281</td>
+      <td>999</td>
+      <td>0.914746</td>
+      <td>0.598</td>
+      <td>0.61700</td>
+    </tr>
+    <tr>
+      <th>Obese</th>
+      <td>311</td>
+      <td>999</td>
+      <td>1.709373</td>
+      <td>0.004</td>
+      <td>0.04000</td>
+    </tr>
+    <tr>
+      <th>Overweight</th>
+      <td>415</td>
+      <td>999</td>
+      <td>1.247577</td>
+      <td>0.095</td>
+      <td>0.19000</td>
+    </tr>
+    <tr>
+      <th>Underweight</th>
+      <td>303</td>
+      <td>999</td>
+      <td>1.180248</td>
+      <td>0.153</td>
+      <td>0.25500</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">Not provided</th>
+      <th>Obese</th>
+      <td>58</td>
+      <td>999</td>
+      <td>1.292341</td>
+      <td>0.070</td>
+      <td>0.19000</td>
+    </tr>
+    <tr>
+      <th>Overweight</th>
+      <td>162</td>
+      <td>999</td>
+      <td>0.928171</td>
+      <td>0.617</td>
+      <td>0.61700</td>
+    </tr>
+    <tr>
+      <th>Underweight</th>
+      <td>50</td>
+      <td>999</td>
+      <td>1.031737</td>
+      <td>0.351</td>
+      <td>0.43875</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">Obese</th>
+      <th>Overweight</th>
+      <td>192</td>
+      <td>999</td>
+      <td>1.282260</td>
+      <td>0.076</td>
+      <td>0.19000</td>
+    </tr>
+    <tr>
+      <th>Underweight</th>
+      <td>80</td>
+      <td>999</td>
+      <td>1.055095</td>
+      <td>0.310</td>
+      <td>0.43875</td>
+    </tr>
+    <tr>
+      <th>Overweight</th>
+      <th>Underweight</th>
+      <td>184</td>
+      <td>999</td>
+      <td>1.330871</td>
+      <td>0.057</td>
+      <td>0.19000</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  
+
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,212 @@
+execution:
+    uuid: ecd33371-3fef-4a8e-b462-9ef2ab7294be
+    runtime:
+        start: 2021-04-21T10:31:07.414412-07:00
+        end: 2021-04-21T10:32:22.665011-07:00
+        duration: 1 minute, 15 seconds, and 250599 microseconds
+
+action:
+    type: method
+    plugin: !ref 'environment:plugins:rescript'
+    action: dereplicate
+    inputs:
+    -   sequences: b00dd907-5ae2-4e86-ab91-e8911889ac06
+    -   taxa: 6d0c1726-2a4c-4bdc-a23d-9334f813bbfd
+    parameters:
+    -   mode: uniq
+    -   perc_identity: 1.0
+    -   threads: 1
+    -   rank_handles: greengenes
+    -   derep_prefix: false
+    output-name: dereplicated_sequences
+    citations:
+    - !cite 'action|rescript:2021.4.0.dev0+6.g073ccf0|method:dereplicate|0'
+
+transformers:
+    inputs:
+        sequences:
+        -   from: DNASequencesDirectoryFormat
+            to: DNAFASTAFormat
+        taxa:
+        -   from: TSVTaxonomyDirectoryFormat
+            to: pandas.core.frame:DataFrame
+            plugin: !ref 'environment:plugins:types'
+            citations:
+            - !cite 'view|types:2021.4.0|pandas.core.frame:DataFrame|0'
+    output:
+    -   from: DNAFASTAFormat
+        to: DNASequencesDirectoryFormat
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.8.8 | packaged by conda-forge | (default, Feb 20 2021, 16:22:27)
+        [GCC 9.3.0]
+    framework:
+        version: 2021.4.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2021.4.0|0'
+    plugins:
+        types:
+            version: 2021.4.0
+            website: https://github.com/qiime2/q2-types
+        rescript:
+            version: 2021.4.0.dev0+6.g073ccf0
+            website: https://github.com/nbokulich/RESCRIPt
+            citations:
+            - !cite 'plugin|rescript:2021.4.0.dev0+6.g073ccf0|0'
+    python-packages:
+        zipp: 3.4.1
+        xopen: 1.1.0
+        xmltodict: 0.12.0
+        widgetsnbextension: 3.5.1
+        wheel: 0.36.2
+        webencodings: 0.5.1
+        wcwidth: 0.2.5
+        urllib3: 1.26.4
+        unifrac: 0.20.2
+        tzlocal: '2.1'
+        typing-extensions: 3.7.4.3
+        traitlets: 5.0.5
+        tornado: '6.1'
+        toml: 0.10.2
+        threadpoolctl: 2.1.0
+        testpath: 0.4.4
+        terminado: 0.9.4
+        statsmodels: 0.12.2
+        six: 1.15.0
+        setuptools: 49.6.0.post20210108
+        sepp: 4.3.10
+        Send2Trash: 1.5.0
+        seaborn: 0.11.1
+        scipy: 1.6.2
+        scikit-learn: 0.24.1
+        scikit-bio: 0.5.6
+        rescript: 2021.4.0.dev0+6.g073ccf0
+        requests: 2.25.1
+        qiime2: 2021.4.0
+        q2templates: 2021.4.0
+        q2cli: 2021.4.0
+        q2-vsearch: 2021.4.0
+        q2-types: 2021.4.0
+        q2-taxa: 2021.4.0
+        q2-sample-classifier: 2021.4.0
+        q2-quality-filter: 2021.4.0
+        q2-quality-control: 2021.4.0
+        q2-phylogeny: 2021.4.0
+        q2-mystery-stew: 2021.4.0
+        q2-metadata: 2021.4.0
+        q2-longitudinal: 2021.4.0
+        q2-gneiss: 2021.4.0
+        q2-fragment-insertion: 2021.4.0
+        q2-feature-table: 2021.4.0
+        q2-feature-classifier: 2021.4.0
+        q2-emperor: 2021.4.0
+        q2-diversity: 2021.4.0
+        q2-diversity-lib: 2021.4.0
+        q2-demux: 2021.4.0
+        q2-deblur: 2021.4.0
+        q2-dada2: 2021.4.0
+        q2-cutadapt: 2021.4.0
+        q2-composition: 2021.4.0
+        q2-alignment: 2021.4.0
+        pyzmq: 22.0.3
+        PyYAML: 5.4.1
+        pytz: '2021.1'
+        python-dateutil: 2.8.1
+        pytest: 6.2.3
+        PySocks: 1.7.1
+        pyrsistent: 0.17.3
+        PyQtWebEngine: 5.12.1
+        PyQtChart: '5.12'
+        PyQt5: 5.12.3
+        PyQt5-sip: 4.19.18
+        pyparsing: 2.4.7
+        pyOpenSSL: 20.0.1
+        Pygments: 2.8.1
+        pycparser: '2.20'
+        py: 1.10.0
+        ptyprocess: 0.7.0
+        psutil: 5.8.0
+        prompt-toolkit: 3.0.18
+        prometheus-client: 0.10.1
+        pluggy: 0.13.1
+        pip: 21.0.1
+        Pillow: 8.1.2
+        pickleshare: 0.7.5
+        pexpect: 4.8.0
+        patsy: 0.5.1
+        parso: 0.8.2
+        pandocfilters: 1.4.2
+        pandas: 1.2.4
+        packaging: '20.9'
+        olefile: '0.46'
+        numpy: 1.20.2
+        notebook: 6.3.0
+        nose: 1.3.7
+        networkx: 2.5.1
+        nest-asyncio: 1.5.1
+        nbformat: 5.1.3
+        nbconvert: 6.0.7
+        nbclient: 0.5.3
+        natsort: 7.1.1
+        msgpack: 1.0.2
+        more-itertools: 8.7.0
+        mistune: 0.8.4
+        matplotlib: 3.4.1
+        MarkupSafe: 1.1.1
+        lz4: 3.1.3
+        lxml: 4.6.3
+        lockfile: 0.12.2
+        kiwisolver: 1.3.1
+        jupyterlab-widgets: 1.0.0
+        jupyterlab-pygments: 0.1.2
+        jupyter-core: 4.7.1
+        jupyter-client: 6.1.12
+        jsonschema: 3.2.0
+        joblib: 1.0.1
+        Jinja2: 2.11.3
+        jedi: 0.18.0
+        isal: 0.10.0
+        ipywidgets: 7.6.3
+        ipython: 7.22.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.5.3
+        iniconfig: 1.1.1
+        importlib-metadata: 3.10.1
+        ijson: 3.1.3
+        idna: '2.10'
+        hdmedians: 0.14.2
+        h5py: 3.2.1
+        gneiss: 0.4.6
+        future: 0.18.2
+        fastcluster: 1.1.26
+        entrypoints: '0.3'
+        emperor: 1.0.3
+        dnaio: 0.5.0
+        DendroPy: 4.5.2
+        defusedxml: 0.7.1
+        decorator: 4.4.2
+        deblur: 1.1.0
+        Cython: 0.29.23
+        cycler: 0.10.0
+        cutadapt: '3.4'
+        cryptography: 3.4.7
+        click: 7.1.2
+        chardet: 4.0.0
+        cffi: 1.14.5
+        certifi: 2020.12.5
+        cached-property: 1.5.2
+        CacheControl: 0.12.6
+        brotlipy: 0.7.0
+        bokeh: 2.3.1
+        bleach: 3.3.0
+        biom-format: 2.1.10
+        bibtexparser: 1.1.0
+        backports.functools-lru-cache: 1.6.4
+        backcall: 0.2.0
+        attrs: 20.3.0
+        async-generator: '1.10'
+        argon2-cffi: 20.1.0
+        q2galaxy: 2021.4.0

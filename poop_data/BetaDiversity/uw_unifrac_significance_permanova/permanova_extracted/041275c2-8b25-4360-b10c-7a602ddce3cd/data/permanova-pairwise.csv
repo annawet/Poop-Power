@@ -1,0 +1,16 @@
+Group 1,Group 2,Sample size,Permutations,pseudo-F,p-value,q-value
+1 year,3 months,181,999,1.0603633297028932,0.307,0.675
+1 year,6 months,162,999,0.8193369365036928,0.876,0.9578571428571429
+1 year,I have not been outside of my country of residence in the past year.,256,999,1.5505132369670007,0.024,0.09
+1 year,Month,168,999,1.0146446193042464,0.417,0.695
+1 year,Not provided,106,999,0.8875736009356926,0.668,0.835
+3 months,6 months,161,999,1.2178829165092775,0.104,0.312
+3 months,I have not been outside of my country of residence in the past year.,255,999,1.6463858088028067,0.004,0.02
+3 months,Month,167,999,0.9866797097320191,0.484,0.726
+3 months,Not provided,105,999,0.7897168849207745,0.894,0.9578571428571429
+6 months,I have not been outside of my country of residence in the past year.,236,999,1.8625531258329344,0.004,0.02
+6 months,Month,148,999,0.9305201500984743,0.588,0.8018181818181819
+6 months,Not provided,86,999,1.0196399932214253,0.38,0.695
+I have not been outside of my country of residence in the past year.,Month,242,999,2.18400080623255,0.002,0.02
+I have not been outside of my country of residence in the past year.,Not provided,180,999,0.7063734693641609,0.97,0.97
+Month,Not provided,92,999,1.0611422363719962,0.315,0.675

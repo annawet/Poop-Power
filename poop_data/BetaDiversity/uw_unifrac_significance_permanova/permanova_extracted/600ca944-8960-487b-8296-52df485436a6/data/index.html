@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_diversity : beta_group_significance</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+  
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Overview</h2>
+      <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PERMANOVA results</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>method name</th>
+      <td>PERMANOVA</td>
+    </tr>
+    <tr>
+      <th>test statistic name</th>
+      <td>pseudo-F</td>
+    </tr>
+    <tr>
+      <th>sample size</th>
+      <td>509</td>
+    </tr>
+    <tr>
+      <th>number of groups</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>test statistic</th>
+      <td>1.514032</td>
+    </tr>
+    <tr>
+      <th>p-value</th>
+      <td>0.001</td>
+    </tr>
+    <tr>
+      <th>number of permutations</th>
+      <td>999</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Group significance plots</h2>
+      <a href="raw_data.tsv" target="_blank" rel="noopener noreferrer">
+        Download raw data as TSV
+      </a>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="I%2520don%2527t%2520know%252C%2520I%2520do%2520not%2520have%2520a%2520point%2520of%2520reference-boxplots.pdf">
+                <img src="I%2520don%2527t%2520know%252C%2520I%2520do%2520not%2520have%2520a%2520point%2520of%2520reference-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="I%2520tend%2520to%2520be%2520constipated%2520%2528have%2520difficulty%2520passing%2520stool%2529%2520-%2520Type%25201%2520and%25202-boxplots.pdf">
+                <img src="I%2520tend%2520to%2520be%2520constipated%2520%2528have%2520difficulty%2520passing%2520stool%2529%2520-%2520Type%25201%2520and%25202-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="I%2520tend%2520to%2520have%2520diarrhea%2520%2528watery%2520stool%2529%2520-%2520Type%25205%252C%25206%2520and%25207-boxplots.pdf">
+                <img src="I%2520tend%2520to%2520have%2520diarrhea%2520%2528watery%2520stool%2529%2520-%2520Type%25205%252C%25206%2520and%25207-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="I%2520tend%2520to%2520have%2520normal%2520formed%2520stool%2520-%2520Type%25203%2520and%25204-boxplots.pdf">
+                <img src="I%2520tend%2520to%2520have%2520normal%2520formed%2520stool%2520-%2520Type%25203%2520and%25204-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-12 text-center">
+              <a href="Not%2520provided-boxplots.pdf">
+                <img src="Not%2520provided-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Pairwise permanova results</h2>
+        <a href="permanova-pairwise.csv">Download CSV</a>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Sample size</th>
+      <th>Permutations</th>
+      <th>pseudo-F</th>
+      <th>p-value</th>
+      <th>q-value</th>
+    </tr>
+    <tr>
+      <th>Group 1</th>
+      <th>Group 2</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="4" valign="top">I don't know, I do not have a point of reference</th>
+      <th>I tend to be constipated (have difficulty passing stool) - Type 1 and 2</th>
+      <td>68</td>
+      <td>999</td>
+      <td>1.572030</td>
+      <td>0.018</td>
+      <td>0.047500</td>
+    </tr>
+    <tr>
+      <th>I tend to have diarrhea (watery stool) - Type 5, 6 and 7</th>
+      <td>98</td>
+      <td>999</td>
+      <td>0.904673</td>
+      <td>0.639</td>
+      <td>0.798750</td>
+    </tr>
+    <tr>
+      <th>I tend to have normal formed stool - Type 3 and 4</th>
+      <td>361</td>
+      <td>999</td>
+      <td>0.983550</td>
+      <td>0.443</td>
+      <td>0.645714</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <td>21</td>
+      <td>999</td>
+      <td>0.869640</td>
+      <td>0.752</td>
+      <td>0.835556</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">I tend to be constipated (have difficulty passing stool) - Type 1 and 2</th>
+      <th>I tend to have diarrhea (watery stool) - Type 5, 6 and 7</th>
+      <td>140</td>
+      <td>999</td>
+      <td>2.758443</td>
+      <td>0.001</td>
+      <td>0.005000</td>
+    </tr>
+    <tr>
+      <th>I tend to have normal formed stool - Type 3 and 4</th>
+      <td>403</td>
+      <td>999</td>
+      <td>2.735399</td>
+      <td>0.001</td>
+      <td>0.005000</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <td>63</td>
+      <td>999</td>
+      <td>1.557508</td>
+      <td>0.019</td>
+      <td>0.047500</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">I tend to have diarrhea (watery stool) - Type 5, 6 and 7</th>
+      <th>I tend to have normal formed stool - Type 3 and 4</th>
+      <td>433</td>
+      <td>999</td>
+      <td>1.160225</td>
+      <td>0.168</td>
+      <td>0.336000</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <td>93</td>
+      <td>999</td>
+      <td>0.794403</td>
+      <td>0.882</td>
+      <td>0.882000</td>
+    </tr>
+    <tr>
+      <th>I tend to have normal formed stool - Type 3 and 4</th>
+      <th>Not provided</th>
+      <td>356</td>
+      <td>999</td>
+      <td>0.980260</td>
+      <td>0.452</td>
+      <td>0.645714</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  
+
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+    
+  </body>
+</html>

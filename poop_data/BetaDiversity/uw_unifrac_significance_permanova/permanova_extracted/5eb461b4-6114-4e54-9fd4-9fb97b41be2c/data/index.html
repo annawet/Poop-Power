@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_diversity : beta_group_significance</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+  
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Overview</h2>
+      <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PERMANOVA results</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>method name</th>
+      <td>PERMANOVA</td>
+    </tr>
+    <tr>
+      <th>test statistic name</th>
+      <td>pseudo-F</td>
+    </tr>
+    <tr>
+      <th>sample size</th>
+      <td>509</td>
+    </tr>
+    <tr>
+      <th>number of groups</th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>test statistic</th>
+      <td>1.447804</td>
+    </tr>
+    <tr>
+      <th>p-value</th>
+      <td>0.002</td>
+    </tr>
+    <tr>
+      <th>number of permutations</th>
+      <td>999</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Group significance plots</h2>
+      <a href="raw_data.tsv" target="_blank" rel="noopener noreferrer">
+        Download raw data as TSV
+      </a>
+      
+        <div class="row">
+          
+            <div class="col-lg-4 text-center">
+              <a href="Daily-boxplots.pdf">
+                <img src="Daily-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Never-boxplots.pdf">
+                <img src="Never-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Not%2520provided-boxplots.pdf">
+                <img src="Not%2520provided-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+        <div class="row">
+          
+            <div class="col-lg-4 text-center">
+              <a href="Occasionally-boxplots.pdf">
+                <img src="Occasionally-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Rarely-boxplots.pdf">
+                <img src="Rarely-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+            <div class="col-lg-4 text-center">
+              <a href="Regularly-boxplots.pdf">
+                <img src="Regularly-boxplots.png">
+                <br>
+                <p>Download as PDF</p>
+              </a>
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Pairwise permanova results</h2>
+        <a href="permanova-pairwise.csv">Download CSV</a>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Sample size</th>
+      <th>Permutations</th>
+      <th>pseudo-F</th>
+      <th>p-value</th>
+      <th>q-value</th>
+    </tr>
+    <tr>
+      <th>Group 1</th>
+      <th>Group 2</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="5" valign="top">Daily</th>
+      <th>Never</th>
+      <td>115</td>
+      <td>999</td>
+      <td>1.756980</td>
+      <td>0.007</td>
+      <td>0.024000</td>
+    </tr>
+    <tr>
+      <th>Not provided</th>
+      <td>105</td>
+      <td>999</td>
+      <td>1.765401</td>
+      <td>0.008</td>
+      <td>0.024000</td>
+    </tr>
+    <tr>
+      <th>Occasionally</th>
+      <td>232</td>
+      <td>999</td>
+      <td>1.244873</td>
+      <td>0.094</td>
+      <td>0.141000</td>
+    </tr>
+    <tr>
+      <th>Rarely</th>
+      <td>168</td>
+      <td>999</td>
+      <td>0.955685</td>
+      <td>0.541</td>
+      <td>0.624231</td>
+    </tr>
+    <tr>
+      <th>Regularly</th>
+      <td>285</td>
+      <td>999</td>
+      <td>1.007280</td>
+      <td>0.425</td>
+      <td>0.531250</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">Never</th>
+      <th>Not provided</th>
+      <td>22</td>
+      <td>999</td>
+      <td>0.747456</td>
+      <td>0.855</td>
+      <td>0.916071</td>
+    </tr>
+    <tr>
+      <th>Occasionally</th>
+      <td>149</td>
+      <td>999</td>
+      <td>1.563563</td>
+      <td>0.017</td>
+      <td>0.031875</td>
+    </tr>
+    <tr>
+      <th>Rarely</th>
+      <td>85</td>
+      <td>999</td>
+      <td>1.484247</td>
+      <td>0.028</td>
+      <td>0.046667</td>
+    </tr>
+    <tr>
+      <th>Regularly</th>
+      <td>202</td>
+      <td>999</td>
+      <td>2.161403</td>
+      <td>0.002</td>
+      <td>0.024000</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">Not provided</th>
+      <th>Occasionally</th>
+      <td>139</td>
+      <td>999</td>
+      <td>1.660227</td>
+      <td>0.017</td>
+      <td>0.031875</td>
+    </tr>
+    <tr>
+      <th>Rarely</th>
+      <td>75</td>
+      <td>999</td>
+      <td>1.677026</td>
+      <td>0.013</td>
+      <td>0.031875</td>
+    </tr>
+    <tr>
+      <th>Regularly</th>
+      <td>192</td>
+      <td>999</td>
+      <td>2.098008</td>
+      <td>0.004</td>
+      <td>0.024000</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">Occasionally</th>
+      <th>Rarely</th>
+      <td>202</td>
+      <td>999</td>
+      <td>0.750986</td>
+      <td>0.952</td>
+      <td>0.952000</td>
+    </tr>
+    <tr>
+      <th>Regularly</th>
+      <td>319</td>
+      <td>999</td>
+      <td>1.659084</td>
+      <td>0.007</td>
+      <td>0.024000</td>
+    </tr>
+    <tr>
+      <th>Rarely</th>
+      <th>Regularly</th>
+      <td>255</td>
+      <td>999</td>
+      <td>1.219863</td>
+      <td>0.118</td>
+      <td>0.160909</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  
+
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+    
+  </body>
+</html>

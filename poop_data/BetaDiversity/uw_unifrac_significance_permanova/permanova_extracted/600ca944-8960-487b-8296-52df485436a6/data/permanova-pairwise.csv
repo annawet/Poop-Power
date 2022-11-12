@@ -1,0 +1,11 @@
+Group 1,Group 2,Sample size,Permutations,pseudo-F,p-value,q-value
+"I don't know, I do not have a point of reference",I tend to be constipated (have difficulty passing stool) - Type 1 and 2,68,999,1.572029642299884,0.018,0.047499999999999994
+"I don't know, I do not have a point of reference","I tend to have diarrhea (watery stool) - Type 5, 6 and 7",98,999,0.9046725296990863,0.639,0.79875
+"I don't know, I do not have a point of reference",I tend to have normal formed stool - Type 3 and 4,361,999,0.9835497613195003,0.443,0.6457142857142858
+"I don't know, I do not have a point of reference",Not provided,21,999,0.869639661574057,0.752,0.8355555555555555
+I tend to be constipated (have difficulty passing stool) - Type 1 and 2,"I tend to have diarrhea (watery stool) - Type 5, 6 and 7",140,999,2.758443204033666,0.001,0.005
+I tend to be constipated (have difficulty passing stool) - Type 1 and 2,I tend to have normal formed stool - Type 3 and 4,403,999,2.7353992492379144,0.001,0.005
+I tend to be constipated (have difficulty passing stool) - Type 1 and 2,Not provided,63,999,1.557508207794039,0.019,0.047499999999999994
+"I tend to have diarrhea (watery stool) - Type 5, 6 and 7",I tend to have normal formed stool - Type 3 and 4,433,999,1.160224847552871,0.168,0.336
+"I tend to have diarrhea (watery stool) - Type 5, 6 and 7",Not provided,93,999,0.7944025110340018,0.882,0.882
+I tend to have normal formed stool - Type 3 and 4,Not provided,356,999,0.9802600040408876,0.452,0.6457142857142858
