@@ -1,0 +1,262 @@
+,Group 1,Group 2,Sample size,Permutations,pseudo-F,p-value,q-value,column
+0,20s,30s,118,999,1.3574050920294145,0.064,0.1772307692307692,GEN_age_cat
+1,20s,40s,149,999,2.1106657227215093,0.002,0.018,GEN_age_cat
+2,20s,50s,164,999,2.972795006190644,0.001,0.018,GEN_age_cat
+3,20s,60s,124,999,3.0326200570377178,0.001,0.018,GEN_age_cat
+4,20s,70+,78,999,2.320030562211862,0.002,0.018,GEN_age_cat
+5,20s,Not provided,74,999,1.2910146771251834,0.093,0.216,GEN_age_cat
+6,20s,child,54,999,1.2082910130429003,0.165,0.27,GEN_age_cat
+7,20s,teen,55,999,0.94168914099825,0.559,0.6045882352941176,GEN_age_cat
+8,30s,40s,179,999,1.1696708694699245,0.168,0.27,GEN_age_cat
+9,30s,50s,194,999,1.4837738352841163,0.021,0.084,GEN_age_cat
+10,30s,60s,154,999,2.098176958884963,0.003,0.0216,GEN_age_cat
+11,30s,70+,108,999,1.706402091442479,0.011,0.0495,GEN_age_cat
+12,30s,Not provided,104,999,0.9234171686010326,0.594,0.6109714285714285,GEN_age_cat
+13,30s,child,84,999,1.1850086610296846,0.166,0.27,GEN_age_cat
+14,30s,teen,85,999,1.2358589258333292,0.112,0.2197894736842105,GEN_age_cat
+15,40s,50s,225,999,1.1532563746228228,0.18,0.27,GEN_age_cat
+16,40s,60s,185,999,1.4313016965511167,0.031,0.1115999999999999,GEN_age_cat
+17,40s,70+,139,999,1.1194027382445872,0.259,0.3453333333333333,GEN_age_cat
+18,40s,Not provided,135,999,0.9414491355126804,0.571,0.6045882352941176,GEN_age_cat
+19,40s,child,115,999,1.1201116082054412,0.235,0.3253846153846154,GEN_age_cat
+20,40s,teen,116,999,1.309771313660212,0.084,0.216,GEN_age_cat
+21,50s,60s,200,999,1.0959043355678049,0.279,0.3587142857142857,GEN_age_cat
+22,50s,70+,154,999,1.0241552191946766,0.367,0.412875,GEN_age_cat
+23,50s,Not provided,150,999,1.283487924159633,0.096,0.216,GEN_age_cat
+24,50s,child,130,999,1.2353763545424288,0.116,0.2197894736842105,GEN_age_cat
+25,50s,teen,131,999,1.6801296868552362,0.008,0.0411428571428571,GEN_age_cat
+26,60s,70+,114,999,0.7417751890548938,0.94,0.94,GEN_age_cat
+27,60s,Not provided,110,999,1.269387425175622,0.111,0.2197894736842105,GEN_age_cat
+28,60s,child,90,999,1.159434595127537,0.197,0.28368,GEN_age_cat
+29,60s,teen,91,999,1.7484069540672191,0.008,0.0411428571428571,GEN_age_cat
+30,70+,Not provided,64,999,1.0838811687547696,0.31,0.3848275862068965,GEN_age_cat
+31,70+,child,44,999,1.0586282427265958,0.332,0.3948387096774193,GEN_age_cat
+32,70+,teen,45,999,1.5266659883678595,0.041,0.1341818181818181,GEN_age_cat
+33,Not provided,child,40,999,1.0472961088385468,0.34,0.3948387096774193,GEN_age_cat
+34,Not provided,teen,41,999,1.190948156763004,0.173,0.27,GEN_age_cat
+35,child,teen,21,999,1.326512032114259,0.064,0.1772307692307692,GEN_age_cat
+0,Normal,Not provided,281,999,0.9446217586600288,0.513,0.513,GEN_bmi_cat
+1,Normal,Obese,310,999,1.9000171743565384,0.008,0.08,GEN_bmi_cat
+2,Normal,Overweight,415,999,1.043672630092755,0.351,0.43875,GEN_bmi_cat
+3,Normal,Underweight,303,999,1.0743570302147178,0.31,0.43875,GEN_bmi_cat
+4,Not provided,Obese,57,999,1.455184073276968,0.027,0.09,GEN_bmi_cat
+5,Not provided,Overweight,162,999,0.957625043955515,0.507,0.513,GEN_bmi_cat
+6,Not provided,Underweight,50,999,1.0650352267403314,0.328,0.43875,GEN_bmi_cat
+7,Obese,Overweight,191,999,1.496310445865091,0.026,0.09,GEN_bmi_cat
+8,Obese,Underweight,79,999,1.12091142318514,0.263,0.43875,GEN_bmi_cat
+9,Overweight,Underweight,184,999,1.1862322546871231,0.164,0.41,GEN_bmi_cat
+0,False,True,508,999,0.7831459598809413,0.886,0.886,GEN_cat
+0,False,True,508,999,1.0305651917359824,0.368,0.368,GEN_dog
+0,I have lived in my current state of residence for more than a year.,Not provided,474,999,0.8000070096365169,0.845,0.999,GEN_last_move
+1,I have lived in my current state of residence for more than a year.,Within the past 3 months,475,999,1.79568075905188,0.009,0.1349999999999999,GEN_last_move
+2,I have lived in my current state of residence for more than a year.,Within the past 6 months,468,999,0.7241218371656336,0.945,0.999,GEN_last_move
+3,I have lived in my current state of residence for more than a year.,Within the past month,467,999,1.28908352070864,0.114,0.342,GEN_last_move
+4,I have lived in my current state of residence for more than a year.,Within the past year,480,999,0.7888719339496478,0.849,0.999,GEN_last_move
+5,Not provided,Within the past 3 months,21,999,1.055436269153821,0.338,0.63375,GEN_last_move
+6,Not provided,Within the past 6 months,14,999,0.6034449992286135,0.999,0.999,GEN_last_move
+7,Not provided,Within the past month,13,999,1.1665520472490991,0.177,0.4424999999999999,GEN_last_move
+8,Not provided,Within the past year,26,999,0.7164907034976358,0.963,0.999,GEN_last_move
+9,Within the past 3 months,Within the past 6 months,15,999,1.0459481672770636,0.426,0.71,GEN_last_move
+10,Within the past 3 months,Within the past month,14,999,1.3338741594127823,0.057,0.285,GEN_last_move
+11,Within the past 3 months,Within the past year,27,999,1.5420448322409317,0.025,0.1875,GEN_last_move
+12,Within the past 6 months,Within the past month,7,999,1.0940431740989298,0.302,0.63375,GEN_last_move
+13,Within the past 6 months,Within the past year,20,999,0.8662389120443826,0.704,0.999,GEN_last_move
+14,Within the past month,Within the past year,19,999,1.316904670228254,0.091,0.34125,GEN_last_move
+0,1 year,3 months,181,999,1.0495332214125783,0.345,0.6900000000000001,GEN_last_travel
+1,1 year,6 months,161,999,0.752162187108878,0.909,0.909,GEN_last_travel
+2,1 year,I have not been outside of my country of residence in the past year.,256,999,1.380667571790224,0.058,0.2175,GEN_last_travel
+3,1 year,Month,168,999,0.9827030646488872,0.443,0.6900000000000001,GEN_last_travel
+4,1 year,Not provided,106,999,0.935111716546856,0.549,0.7486363636363638,GEN_last_travel
+5,3 months,6 months,160,999,1.1411322197568277,0.213,0.639,GEN_last_travel
+6,3 months,I have not been outside of my country of residence in the past year.,255,999,1.7352554827129467,0.005,0.0375,GEN_last_travel
+7,3 months,Month,167,999,0.9016407405636452,0.7,0.8076923076923076,GEN_last_travel
+8,3 months,Not provided,105,999,0.9736868181368168,0.46,0.6900000000000001,GEN_last_travel
+9,6 months,I have not been outside of my country of residence in the past year.,235,999,1.6491371549455254,0.015,0.075,GEN_last_travel
+10,6 months,Month,147,999,0.8989763998957959,0.638,0.7975,GEN_last_travel
+11,6 months,Not provided,85,999,1.0571534902080109,0.309,0.6900000000000001,GEN_last_travel
+12,I have not been outside of my country of residence in the past year.,Month,242,999,1.938236623125914,0.003,0.0375,GEN_last_travel
+13,I have not been outside of my country of residence in the past year.,Not provided,180,999,0.7694663923367626,0.874,0.909,GEN_last_travel
+14,Month,Not provided,92,999,1.0023835284302378,0.406,0.6900000000000001,GEN_last_travel
+0,Associate's degree,Bachelor's degree,129,999,0.7386377328515134,0.924,0.971,GEN_level_of_education
+1,Associate's degree,Did not complete high school,22,999,0.8947963564252487,0.704,0.896,GEN_level_of_education
+2,Associate's degree,Graduate or Professional degree,235,999,0.7585286723053446,0.912,0.971,GEN_level_of_education
+3,Associate's degree,High School or GED equilivant,29,999,0.9356404109418603,0.545,0.8946666666666667,GEN_level_of_education
+4,Associate's degree,Not provided,27,999,1.0600778448135513,0.36,0.63,GEN_level_of_education
+5,Associate's degree,Some college or technical school,83,999,0.6809197740283209,0.971,0.971,GEN_level_of_education
+6,Associate's degree,Some graduate school or professional,37,999,0.8955559367870458,0.661,0.8946666666666667,GEN_level_of_education
+7,Bachelor's degree,Did not complete high school,133,999,1.3415094033154669,0.082,0.287,GEN_level_of_education
+8,Bachelor's degree,Graduate or Professional degree,346,999,1.1136164125356582,0.223,0.446,GEN_level_of_education
+9,Bachelor's degree,High School or GED equilivant,140,999,0.7202424706067996,0.94,0.971,GEN_level_of_education
+10,Bachelor's degree,Not provided,138,999,1.4058994633974589,0.045,0.252,GEN_level_of_education
+11,Bachelor's degree,Some college or technical school,194,999,0.9113235851996602,0.633,0.8946666666666667,GEN_level_of_education
+12,Bachelor's degree,Some graduate school or professional,148,999,1.097125688628136,0.266,0.4965333333333334,GEN_level_of_education
+13,Did not complete high school,Graduate or Professional degree,239,999,1.5915941240629026,0.019,0.252,GEN_level_of_education
+14,Did not complete high school,High School or GED equilivant,33,999,1.2434111264468246,0.121,0.3436363636363637,GEN_level_of_education
+15,Did not complete high school,Not provided,31,999,0.8985598269416948,0.642,0.8946666666666667,GEN_level_of_education
+16,Did not complete high school,Some college or technical school,87,999,1.1608080820426123,0.179,0.4176666666666667,GEN_level_of_education
+17,Did not complete high school,Some graduate school or professional,41,999,1.351053253688893,0.075,0.287,GEN_level_of_education
+18,Graduate or Professional degree,High School or GED equilivant,246,999,0.7937438312615938,0.862,0.971,GEN_level_of_education
+19,Graduate or Professional degree,Not provided,244,999,2.0061172297062773,0.004,0.112,GEN_level_of_education
+20,Graduate or Professional degree,Some college or technical school,300,999,1.24093033219975,0.128,0.3436363636363637,GEN_level_of_education
+21,Graduate or Professional degree,Some graduate school or professional,254,999,1.3724762154640853,0.041,0.252,GEN_level_of_education
+22,High School or GED equilivant,Not provided,38,999,1.1823303913967969,0.195,0.42,GEN_level_of_education
+23,High School or GED equilivant,Some college or technical school,94,999,0.8805516062510238,0.671,0.8946666666666667,GEN_level_of_education
+24,High School or GED equilivant,Some graduate school or professional,48,999,0.6931197022229599,0.954,0.971,GEN_level_of_education
+25,Not provided,Some college or technical school,92,999,1.2315861405121555,0.135,0.3436363636363637,GEN_level_of_education
+26,Not provided,Some graduate school or professional,46,999,1.4985549139474794,0.044,0.252,GEN_level_of_education
+27,Some college or technical school,Some graduate school or professional,102,999,1.3695257402597454,0.066,0.287,GEN_level_of_education
+0,African American,Asian or Pacific Islander,20,999,0.9427726387198196,0.495,0.5861538461538461,GEN_race
+1,African American,Caucasian,466,999,0.966758188168605,0.474,0.5861538461538461,GEN_race
+2,African American,Hispanic,10,999,0.7525141654676859,0.829,0.835,GEN_race
+3,African American,Not provided,7,999,1.0098050934455252,0.508,0.5861538461538461,GEN_race
+4,African American,Other,13,999,0.8199986936926348,0.835,0.835,GEN_race
+5,Asian or Pacific Islander,Caucasian,482,999,2.426397596801117,0.001,0.015,GEN_race
+6,Asian or Pacific Islander,Hispanic,26,999,0.995711136208313,0.465,0.5861538461538461,GEN_race
+7,Asian or Pacific Islander,Not provided,23,999,0.9906736715278636,0.466,0.5861538461538461,GEN_race
+8,Asian or Pacific Islander,Other,29,999,1.129685420381761,0.25,0.5861538461538461,GEN_race
+9,Caucasian,Hispanic,472,999,1.0413063172700676,0.357,0.5861538461538461,GEN_race
+10,Caucasian,Not provided,469,999,0.942980662875534,0.499,0.5861538461538461,GEN_race
+11,Caucasian,Other,475,999,1.8843898763215536,0.005,0.0375,GEN_race
+12,Hispanic,Not provided,13,999,0.9879525392534616,0.468,0.5861538461538461,GEN_race
+13,Hispanic,Other,19,999,1.1654845537155856,0.203,0.5861538461538461,GEN_race
+14,Not provided,Other,16,999,1.1498087686033711,0.227,0.5861538461538461,GEN_race
+0,Not provided,female,292,999,1.194884468785794,0.173,0.308,GEN_sex
+1,Not provided,male,218,999,1.0826263499972364,0.296,0.308,GEN_sex
+2,Not provided,other,4,999,1.4942109656798357,0.245,0.308,GEN_sex
+3,female,male,504,999,1.296337327039084,0.064,0.308,GEN_sex
+4,female,other,290,999,1.0927932571392982,0.277,0.308,GEN_sex
+5,male,other,216,999,1.089072944895122,0.308,0.308,GEN_sex
+0,False,True,508,999,1.4626565785858516,0.045,0.045,HEA_acid_reflux
+0,False,True,508,999,1.0119617309592586,0.407,0.407,HEA_add_adhd
+0,False,True,508,999,1.5610963294394773,0.019,0.019,HEA_allergic_to_peanuts
+0,6 months,I have not taken antibiotics in the past year.,409,999,3.4542417803365657,0.001,0.005,HEA_antibiotic_history
+1,6 months,Month,90,999,1.0390830676727771,0.36,0.6749999999999999,HEA_antibiotic_history
+2,6 months,Not provided,73,999,0.70415246891109,0.943,0.977,HEA_antibiotic_history
+3,6 months,Week,86,999,1.6700625655937236,0.019,0.0474999999999999,HEA_antibiotic_history
+4,6 months,Year,134,999,0.8995220608640367,0.646,0.969,HEA_antibiotic_history
+5,I have not taken antibiotics in the past year.,Month,357,999,2.4375678262221183,0.001,0.005,HEA_antibiotic_history
+6,I have not taken antibiotics in the past year.,Not provided,340,999,0.8049994490357683,0.805,0.977,HEA_antibiotic_history
+7,I have not taken antibiotics in the past year.,Week,353,999,3.677749850346319,0.001,0.005,HEA_antibiotic_history
+8,I have not taken antibiotics in the past year.,Year,401,999,2.0416476437992634,0.003,0.01125,HEA_antibiotic_history
+9,Month,Not provided,21,999,0.6670058516214047,0.977,0.977,HEA_antibiotic_history
+10,Month,Week,34,999,0.9936517939254496,0.441,0.735,HEA_antibiotic_history
+11,Month,Year,82,999,1.3038282524227207,0.078,0.1671428571428571,HEA_antibiotic_history
+12,Not provided,Week,17,999,0.6897537327344389,0.933,0.977,HEA_antibiotic_history
+13,Not provided,Year,65,999,0.6789869817686338,0.964,0.977,HEA_antibiotic_history
+14,Week,Year,78,999,1.8974008397833528,0.005,0.015,HEA_antibiotic_history
+0,False,True,508,999,1.5345295659163438,0.026,0.026,HEA_appendix_removed
+0,False,True,508,999,1.191197053720506,0.154,0.154,HEA_autoimmune
+0,Five or more,Four,24,999,1.1702853166622222,0.187,0.32725,HEA_bowel_movement_frequency
+1,Five or more,Less than one,64,999,3.122728597166503,0.001,0.007,HEA_bowel_movement_frequency
+2,Five or more,Not provided,43,999,2.386003384995032,0.002,0.0084,HEA_bowel_movement_frequency
+3,Five or more,One,243,999,2.775921026458593,0.001,0.007,HEA_bowel_movement_frequency
+4,Five or more,Three,51,999,1.622161389987737,0.032,0.0746666666666666,HEA_bowel_movement_frequency
+5,Five or more,Two,138,999,2.3488924769253563,0.002,0.0084,HEA_bowel_movement_frequency
+6,Four,Less than one,66,999,1.5547595158306935,0.025,0.065625,HEA_bowel_movement_frequency
+7,Four,Not provided,45,999,1.121041662091125,0.232,0.3747692307692308,HEA_bowel_movement_frequency
+8,Four,One,245,999,1.2457303968734326,0.108,0.2061818181818181,HEA_bowel_movement_frequency
+9,Four,Three,53,999,0.8833527496567026,0.648,0.6804,HEA_bowel_movement_frequency
+10,Four,Two,140,999,1.039175648480802,0.376,0.4386666666666667,HEA_bowel_movement_frequency
+11,Less than one,Not provided,85,999,1.3817521604974643,0.048,0.1008,HEA_bowel_movement_frequency
+12,Less than one,One,285,999,1.61506473308663,0.009,0.027,HEA_bowel_movement_frequency
+13,Less than one,Three,93,999,1.869079096392961,0.007,0.0245,HEA_bowel_movement_frequency
+14,Less than one,Two,180,999,2.084991496680188,0.001,0.007,HEA_bowel_movement_frequency
+15,Not provided,One,264,999,1.1023463698786882,0.268,0.402,HEA_bowel_movement_frequency
+16,Not provided,Three,72,999,1.0462358447651088,0.331,0.4344375,HEA_bowel_movement_frequency
+17,Not provided,Two,159,999,1.0397841708382023,0.364,0.4386666666666667,HEA_bowel_movement_frequency
+18,One,Three,272,999,0.9653803442805716,0.506,0.5592631578947368,HEA_bowel_movement_frequency
+19,One,Two,359,999,1.060309050847818,0.319,0.4344375,HEA_bowel_movement_frequency
+20,Three,Two,167,999,0.6491681297342646,0.986,0.986,HEA_bowel_movement_frequency
+0,"I don't know, I do not have a point of reference",I tend to be constipated (have difficulty passing stool) - Type 1 and 2,68,999,1.7975897184632752,0.005,0.0166666666666666,HEA_bowel_movement_quality
+1,"I don't know, I do not have a point of reference","I tend to have diarrhea (watery stool) - Type 5, 6 and 7",97,999,0.9262638128110728,0.613,0.76625,HEA_bowel_movement_quality
+2,"I don't know, I do not have a point of reference",I tend to have normal formed stool - Type 3 and 4,361,999,1.0734433370397791,0.303,0.5650000000000001,HEA_bowel_movement_quality
+3,"I don't know, I do not have a point of reference",Not provided,21,999,0.8491127231023972,0.758,0.8422222222222222,HEA_bowel_movement_quality
+4,I tend to be constipated (have difficulty passing stool) - Type 1 and 2,"I tend to have diarrhea (watery stool) - Type 5, 6 and 7",139,999,2.380821435803456,0.001,0.005,HEA_bowel_movement_quality
+5,I tend to be constipated (have difficulty passing stool) - Type 1 and 2,I tend to have normal formed stool - Type 3 and 4,403,999,2.404934883541148,0.001,0.005,HEA_bowel_movement_quality
+6,I tend to be constipated (have difficulty passing stool) - Type 1 and 2,Not provided,63,999,1.518579432881058,0.025,0.0625,HEA_bowel_movement_quality
+7,"I tend to have diarrhea (watery stool) - Type 5, 6 and 7",I tend to have normal formed stool - Type 3 and 4,432,999,1.034309644502334,0.339,0.5650000000000001,HEA_bowel_movement_quality
+8,"I tend to have diarrhea (watery stool) - Type 5, 6 and 7",Not provided,92,999,0.8013055901390639,0.844,0.844,HEA_bowel_movement_quality
+9,I tend to have normal formed stool - Type 3 and 4,Not provided,356,999,0.977669469384712,0.452,0.6457142857142858,HEA_bowel_movement_quality
+0,False,True,508,999,1.011277046806348,0.406,0.406,HEA_cancer
+0,Chemotherapy,No treatment,13,999,1.1897781614433545,0.216,0.5342857142857144,HEA_cancer_treatment
+1,Chemotherapy,Not provided,477,999,1.3439776586758934,0.067,0.3799999999999999,HEA_cancer_treatment
+2,Chemotherapy,Radiation therapy,14,999,1.1034580225539632,0.321,0.5342857142857144,HEA_cancer_treatment
+3,Chemotherapy,Surgery only,37,999,1.3134837776583248,0.076,0.3799999999999999,HEA_cancer_treatment
+4,No treatment,Not provided,468,999,1.1949484007253892,0.185,0.5342857142857144,HEA_cancer_treatment
+5,No treatment,Radiation therapy,5,999,1.0640977872125588,0.298,0.5342857142857144,HEA_cancer_treatment
+6,No treatment,Surgery only,28,999,1.0236392102035157,0.374,0.5342857142857144,HEA_cancer_treatment
+7,Not provided,Radiation therapy,469,999,0.9262332256780724,0.565,0.701,HEA_cancer_treatment
+8,Not provided,Surgery only,492,999,0.8806206353520414,0.701,0.701,HEA_cancer_treatment
+9,Radiation therapy,Surgery only,29,999,0.9053167663314936,0.651,0.701,HEA_cancer_treatment
+0,False,True,508,999,0.7842877883615269,0.86,0.86,HEA_cardiovascular_disease
+0,False,True,508,999,2.147153473010863,0.001,0.001,HEA_cdiff
+0,False,True,508,999,1.5807430468092394,0.016,0.016,HEA_chickenpox
+0,False,True,508,999,1.234107794332744,0.134,0.134,HEA_csection
+0,False,True,508,999,1.308732016995047,0.079,0.079,HEA_diabetes
+0,Daily,Never,114,999,2.0014026775758578,0.005,0.01875,HEA_exercise_frequency
+1,Daily,Not provided,104,999,1.6747704689556926,0.014,0.03,HEA_exercise_frequency
+2,Daily,Occasionally,231,999,1.518137554794712,0.03,0.0409090909090909,HEA_exercise_frequency
+3,Daily,Rarely,167,999,1.2104606192027292,0.121,0.15125,HEA_exercise_frequency
+4,Daily,Regularly,284,999,1.0232050937802852,0.376,0.4338461538461538,HEA_exercise_frequency
+5,Never,Not provided,22,999,0.8829398765026053,0.561,0.6010714285714286,HEA_exercise_frequency
+6,Never,Occasionally,149,999,1.935073714559827,0.004,0.01875,HEA_exercise_frequency
+7,Never,Rarely,85,999,1.709784433914636,0.014,0.03,HEA_exercise_frequency
+8,Never,Regularly,202,999,2.642979828087791,0.002,0.015,HEA_exercise_frequency
+9,Not provided,Occasionally,139,999,1.4835495741571256,0.03,0.0409090909090909,HEA_exercise_frequency
+10,Not provided,Rarely,75,999,1.5239930823299277,0.027,0.0409090909090909,HEA_exercise_frequency
+11,Not provided,Regularly,192,999,1.978977125545036,0.001,0.015,HEA_exercise_frequency
+12,Occasionally,Rarely,202,999,0.8062982966603627,0.831,0.831,HEA_exercise_frequency
+13,Occasionally,Regularly,319,999,1.826635900430081,0.008,0.024,HEA_exercise_frequency
+14,Rarely,Regularly,255,999,1.4537687078356083,0.028,0.0409090909090909,HEA_exercise_frequency
+0,False,True,508,999,2.741887643925599,0.001,0.001,HEA_ibd
+0,False,True,508,999,1.145865415989776,0.225,0.225,HEA_ibs
+0,False,True,508,999,1.1389936883313474,0.218,0.218,HEA_liver_disease
+0,False,True,508,999,1.012592474015242,0.41,0.41,HEA_lung_disease
+0,False,True,508,999,0.8056833260654843,0.848,0.848,HEA_mental_illness
+0,False,True,508,999,1.0855321914738398,0.288,0.288,HEA_migraine
+0,False,True,508,999,0.9026231540941868,0.657,0.657,HEA_seasonal_allergies
+0,False,True,508,999,1.7486582279757752,0.007,0.007,HEA_sibo
+0,False,True,508,999,1.177795323387311,0.158,0.158,HEA_skin_condition
+0,5-6 hours,6-7 hours,215,999,0.9327210752636608,0.567,0.832,HEA_sleep_duration
+1,5-6 hours,7-8 hours,278,999,0.8551941798393744,0.773,0.832,HEA_sleep_duration
+2,5-6 hours,8 or more hours,137,999,1.094965488836337,0.26,0.4875,HEA_sleep_duration
+3,5-6 hours,Less than 5 hours,65,999,0.8323296129182812,0.661,0.832,HEA_sleep_duration
+4,5-6 hours,Not provided,69,999,1.6650808914977968,0.014,0.0975,HEA_sleep_duration
+5,6-7 hours,7-8 hours,365,999,1.1566563811436628,0.195,0.4178571428571428,HEA_sleep_duration
+6,6-7 hours,8 or more hours,224,999,1.2189242456281697,0.134,0.335,HEA_sleep_duration
+7,6-7 hours,Less than 5 hours,152,999,0.8736906104694259,0.599,0.832,HEA_sleep_duration
+8,6-7 hours,Not provided,156,999,1.6782329791398372,0.021,0.0975,HEA_sleep_duration
+9,7-8 hours,8 or more hours,287,999,1.4345543931625824,0.026,0.0975,HEA_sleep_duration
+10,7-8 hours,Less than 5 hours,215,999,0.8819297446487505,0.666,0.832,HEA_sleep_duration
+11,7-8 hours,Not provided,219,999,1.7407470564870584,0.01,0.0975,HEA_sleep_duration
+12,8 or more hours,Less than 5 hours,74,999,0.8132067831167317,0.798,0.832,HEA_sleep_duration
+13,8 or more hours,Not provided,78,999,1.3375808517967014,0.074,0.222,HEA_sleep_duration
+14,Less than 5 hours,Not provided,6,999,0.735999565553467,0.832,0.832,HEA_sleep_duration
+0,Daily,Never,484,999,1.7838670585118792,0.005,0.075,HEA_smoking_frequency
+1,Daily,Not provided,12,999,1.2831441636527512,0.152,0.6112500000000001,HEA_smoking_frequency
+2,Daily,Occasionally,14,999,1.2707015828827797,0.163,0.6112500000000001,HEA_smoking_frequency
+3,Daily,Rarely,25,999,1.2779294124826095,0.096,0.6112500000000001,HEA_smoking_frequency
+4,Daily,Regularly,13,999,1.158207992439414,0.254,0.6235714285714286,HEA_smoking_frequency
+5,Never,Not provided,476,999,0.8668331791679043,0.652,0.8775,HEA_smoking_frequency
+6,Never,Occasionally,478,999,1.0776136932295584,0.291,0.6235714285714286,HEA_smoking_frequency
+7,Never,Rarely,489,999,1.0130514169339508,0.427,0.7116666666666667,HEA_smoking_frequency
+8,Never,Regularly,477,999,0.8267151708315252,0.771,0.8896153846153846,HEA_smoking_frequency
+9,Not provided,Occasionally,6,999,0.7815505479682326,0.934,0.939,HEA_smoking_frequency
+10,Not provided,Rarely,17,999,1.0324513505517214,0.396,0.7116666666666667,HEA_smoking_frequency
+11,Not provided,Regularly,5,999,0.9096580119485674,0.702,0.8775,HEA_smoking_frequency
+12,Occasionally,Rarely,19,999,1.1723358708082714,0.206,0.618,HEA_smoking_frequency
+13,Occasionally,Regularly,7,999,0.7430321943638878,0.939,0.939,HEA_smoking_frequency
+14,Rarely,Regularly,18,999,0.8682170115770456,0.674,0.8775,HEA_smoking_frequency
+0,False,True,508,999,1.4726848141701945,0.029,0.029,HEA_thyroid
+0,Decreased more than 10 pounds,Increased more than 10 pounds,91,999,1.29586387199882,0.087,0.1515,HEA_weight_change
+1,Decreased more than 10 pounds,Not provided,63,999,1.0774686171694614,0.319,0.319,HEA_weight_change
+2,Decreased more than 10 pounds,Remained stable,460,999,1.2478875323441554,0.101,0.1515,HEA_weight_change
+3,Increased more than 10 pounds,Not provided,48,999,1.1495529835890268,0.226,0.2712,HEA_weight_change
+4,Increased more than 10 pounds,Remained stable,445,999,1.9087790107890252,0.005,0.03,HEA_weight_change
+5,Not provided,Remained stable,417,999,1.6568263164270651,0.011,0.033,HEA_weight_change
+0,Decreased more than 10 pounds,Increased more than 10 pounds,91,999,2.2814352735245893,0.079,0.17,HEA_weight_change
+1,Decreased more than 10 pounds,Not provided,63,999,2.3178079707552257,0.085,0.17,HEA_weight_change
+2,Decreased more than 10 pounds,Remained stable,460,999,6.102329739291116,0.001,0.006,HEA_weight_change
+3,Increased more than 10 pounds,Not provided,48,999,0.8415255200198353,0.487,0.5843999999999999,HEA_weight_change
+4,Increased more than 10 pounds,Remained stable,445,999,0.4658175082385242,0.791,0.791,HEA_weight_change
+5,Not provided,Remained stable,417,999,1.3981874178005256,0.222,0.333,HEA_weight_change
