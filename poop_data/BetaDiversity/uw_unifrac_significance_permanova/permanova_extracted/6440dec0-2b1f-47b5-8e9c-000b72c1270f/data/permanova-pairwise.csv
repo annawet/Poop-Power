@@ -1,7 +1,0 @@
-Group 1,Group 2,Sample size,Permutations,pseudo-F,p-value,q-value
-Decreased more than 10 pounds,Increased more than 10 pounds,92,999,1.0890454702052927,0.259,0.259
-Decreased more than 10 pounds,Not provided,64,999,1.2471242713834696,0.11,0.165
-Decreased more than 10 pounds,Remained stable,461,999,1.4347014113245131,0.027,0.054
-Increased more than 10 pounds,Not provided,48,999,1.133422601352158,0.215,0.258
-Increased more than 10 pounds,Remained stable,445,999,1.5096231380774434,0.026,0.054
-Not provided,Remained stable,417,999,1.7501117652851959,0.008,0.048
